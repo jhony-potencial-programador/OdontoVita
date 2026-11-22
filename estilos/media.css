@@ -1,0 +1,52 @@
+:root{
+    --cor1: #65C9F0;
+    --cor2: #168BDB;
+    --cor3: #102B46;
+    --cor4: #FFFFFF;
+    --cor5: #d8edff;
+    --cor6: #34485A;
+    --cor7: #441457;
+}
+
+
+
+@media(max-width: 600px){
+    section#servicos{
+        grid-template-columns: 1fr;
+    }
+
+    nav#grande{
+        display: none;
+    }
+
+    span#menu{
+        display: block;
+    }
+
+    nav#pequeno.aparecer{
+        display: none;
+    }
+
+    nav#pequeno{
+        display: flex;
+        justify-content: space-around;        
+    }
+
+    nav#pequeno a{
+        display: block;
+        text-decoration: none;
+        color: var(--cor3);
+    }
+
+    section#hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        background: url(../imagens/image02.png);
+        background-size: cover;
+        background-position: top;
+        height: 350px;
+        border-radius: 6px;
+    }
+}
