@@ -36,6 +36,7 @@
         display: block;
         text-decoration: none;
         color: var(--cor3);
+        margin-top: 20px;
     }
 
     section#hero{
@@ -48,5 +49,17 @@
         background-position: top;
         height: 350px;
         border-radius: 6px;
+    }
+    section#hero{
+    box-shadow:
+            0 0 10px rgba(0, 119, 255, .5),
+            0 0 30px rgba(0, 120, 255, 0.5),
+            0 0 60px rgba(0, 120, 255, 0.25),
+            0 0 100px rgba(0, 120, 255, 0.125);
+    }
+
+
+    .membros{
+        grid-template-columns: 1fr;
     }
 }

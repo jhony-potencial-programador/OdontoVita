@@ -11,6 +11,12 @@
 </head>
 <body>
     <div id="home"></div>
+        <nav id="pequeno">
+        <a href="#home">Home</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#contato">Contato</a>
+    </nav>
     <header >
 
             <img src="imagens/logo.png" alt="logo">
@@ -22,15 +28,9 @@
                 
             </nav>
             <a id="agendar" href="https://wa.me/55DDDNUMERO">Agendar</a>
-            <span id="menu" class="material-symbols-outlined">menu</span>
+            <a href="#home"><span id="menu" class="material-symbols-outlined">menu</span></a>
 
     </header>
-    <nav id="pequeno">
-        <a href="#home">Home</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#equipe">Equipe</a>
-        <a href="#contato">Contato</a>
-    </nav>
 
     <main>
         <section id="hero" class="secao">            
@@ -61,27 +61,27 @@
                 <section id="servicos" class="secao">
             <h2>Quais serviços atendemos?</h2>
 
-            <article id="limpeza" >
+            <article id="limpeza" class="revelar">
                 <h3>Limpeza e prevenção</h3>
                 <p>Remoção de placa e tártaro para manter dentes e gengivas saudáveis.</p>
             </article>
 
-            <article id="clareamento">
+            <article id="clareamento" class="revelar">
                 <h3>Clareamento dental</h3>
                 <p>Sorriso mais branco e uniforme, com técnicas seguras e acompanhamento profissional.</p>
             </article>
 
-            <article id="ortodontia">
+            <article id="ortodontia" class="revelar">
                 <h3>Ortodontia</h3>
                 <p>Alinhamento dos dentes com aparelhos fixos ou alinhadores transparentes.</p>
             </article>
 
-            <article id="implantes">
+            <article id="implantes" class="revelar">
                 <h3>Implantes dentários</h3>
                 <p>Reposição de dentes perdidos com resultado natural e duradouro.</p>
             </article>
 
-            <article id="canal">
+            <article id="canal" class="revelar">
                 <h3>Tratamento de canal</h3>
                 <p>Alívio da dor e preservação do dente com conforto e segurança.</p>
             </article>
@@ -90,9 +90,37 @@
         <section id="equipe" class="secao">
             <h2>Conheça nossa equipe</h2>
             <img src="imagens/dentistas.png" alt="Equipe de dentistas da OdontoVita">
+
+            <div class="membros">
+                <article class="membro revelar">
+                    <h3>Dr. Lucas Almeida</h3>
+                    <span class="funcao">Clínico geral e estética dental</span>
+                    <p>
+                        Lucas une tecnologia e atenção aos detalhes. Seu atendimento leve
+                        e descontraído ajuda quem tem receio de dentista a se sentir à vontade.
+                    </p>
+                </article>
+
+                <article class="membro revelar">
+                    <h3>Dra. Mariana Costa</h3>
+                    <span class="funcao">Ortodontia e Invisalign</span>
+                    <p>
+                        Especialista em alinhamento dental, Mariana acompanha cada paciente
+                        de perto, do primeiro exame ao sorriso final.
+                    </p>
+                </article>
+
+                <article class="membro revelar">
+                    <h3>Dr. Roberto Mendes</h3>
+                    <span class="funcao">Implantes e reabilitação oral</span>
+                    <p>
+                        Com mais de duas décadas de experiência, Roberto é referência em casos complexos. Seu olhar clínico faz dele o profissional a quem muitos pacientes confiam.
+                    </p>
+                </article>
+            </div>
         </section>
 
-        <section id="depoimento" class="secao">
+        <section id="depoimento" class="secao" >
             <h2>O que dizem nossos pacientes</h2>
             <p id="aviso-depoimentos">Depoimentos fictícios, criados para este projeto demonstrativo.</p>
 
